@@ -1,7 +1,7 @@
 {
-    "name": "futurenorthants/wordpress-starter-theme",
-    "description": "A WordPress starter theme, built to use the Gutenburg editor and WordPress blocks",
-    "type": "library",
-    "license": "GPL-3.0-or-later",
-    "require": {}
+  "name": "futurenorthants/wordpress-starter-theme",
+  "description": "A WordPress starter theme, built to use the Gutenburg editor and WordPress blocks",
+  "type": "wordpress-theme",
+  "license": "GPL-3.0-or-later",
+  "require": {}
 }
