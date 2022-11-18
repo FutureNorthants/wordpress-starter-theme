@@ -45,6 +45,11 @@
           "color": "#C6C6C6"
         },
         {
+          "name": "Dark Grey",
+          "slug": "dark-grey",
+          "color": "#3c3c3b"
+        },
+        {
           "name": "Focus",
           "slug": "focus",
           "color": "#E2CA76"
@@ -201,7 +206,53 @@
           }
         }
       },
-      "core/navigation-link": {}
+      "core/navigation-link": {},
+      "core/search": {
+        "elements": {
+          "button": {
+            "color": {
+              "background": "var(--wp--preset--color--dark-grey)"
+            },
+            ":hover": {
+              "color": {
+                "background": "var(--wp--preset--color--black)"
+              }
+            },
+            ":focus": {
+              "color": {
+                "background": "var(--wp--preset--color--focus)"
+              }
+            },
+            ":active": {
+              "color": {
+                "background": "var(--wp--preset--color--focus)"
+              }
+            },
+            "spacing": {
+              "padding": {
+                "top": "var(--wp--preset--spacing--small)",
+                "right": "var(--wp--preset--spacing--small)",
+                "bottom": "var(--wp--preset--spacing--small)",
+                "left": "var(--wp--preset--spacing--small)"
+              },
+              "margin": {
+                "left": "0"
+              }
+            },
+            "border": {
+              "radius": {
+                "topLeft": "0",
+                "bottomLeft": "0"
+              }
+            }
+          }
+        },
+        "spacing": {
+          "margin": {
+            "bottom": "0"
+          }
+        }
+      }
     },
     "color": {
       "background": "var(--wp--preset--color--white)",
