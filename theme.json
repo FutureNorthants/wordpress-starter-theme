@@ -202,6 +202,11 @@
               "color": {
                 "text": "var(--wp--preset--color--white)"
               }
+            },
+            "spacing": {
+              "margin": {
+                "left": "var(--wp--preset--spacing--small)"
+              }
             }
           }
         }
